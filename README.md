@@ -1,6 +1,6 @@
 # video self-disentanglement
 
-This is a pytorch implementaion of video disentanglement in a self-supervised manner.
+This is a pytorch implementation of video disentanglement in a self-supervised manner.
 
 The framework aims at disentangling the motion and content of a video in an unsupervised way; after that, use the extracted motion code to generate frames with similiar motion and different content, we also use the same motion encoder after the generator to extract the motion code of the synthesized frames and expect the motion code to keep unchaged in this generation process, i.e. view the motion as a supervision.
 
